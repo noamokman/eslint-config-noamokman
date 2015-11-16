@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-noamokman",
+  "version": "0.1.0",
+  "description": "The eslint config used by noamokman",
+  "main": "eslint.json",
+  "scripts": {
+    "test": "jsonlint -q eslint.json && jsonlint -q test.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noamokman/eslint-config-noamokman.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noamokman/eslint-config-noamokman/issues"
+  },
+  "homepage": "https://github.com/noamokman/eslint-config-noamokman#readme",
+  "devDependencies": {
+    "jsonlint": "^1.6.2"
+  }
+}
