@@ -10,7 +10,19 @@
     "type": "git",
     "url": "git+https://github.com/noamokman/eslint-config-noamokman.git"
   },
-  "author": "",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "es6",
+	"codestyle",
+    "noamokman"
+  ],
+  "author": {
+    "name": "Noam Okman",
+    "email": "noamokman@gmail.com",
+    "url": "https://github.com/noamokman"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/noamokman/eslint-config-noamokman/issues"
