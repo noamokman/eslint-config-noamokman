@@ -36,12 +36,32 @@ Or to `.eslintrc`:
 }
 ```
 
-This package also exposes [`noamokman/test`](test.json) for testing:
+
+### Additional Configs
+
+This package exposes addtional configs.
+
+#### Test [`noamokman/test`](test.json)
+
+Use this for your mocha tests
 
 ```json
 {
 	"extends": "noamokman/test"
 }
+```
+
+#### React [`noamokman/react`](react.json)
+
+```json
+{
+	"extends": "noamokman/react"
+}
+```
+
+To use the react config you will need to install a [plugin](https://github.com/yannickcr/eslint-plugin-react)
+```
+$ npm install --save-dev eslint-plugin-react
 ```
 
 ## License

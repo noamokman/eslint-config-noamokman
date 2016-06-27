@@ -4,7 +4,7 @@
   "description": "The eslint config used by noamokman",
   "main": "eslint.json",
   "scripts": {
-    "test": "jsonlint -q eslint.json && jsonlint -q test.json"
+    "test": "jsonlint -q eslint.json && jsonlint -q test.json && jsonlint -q react.json"
   },
   "repository": {
     "type": "git",
