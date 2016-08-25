@@ -30,5 +30,9 @@
   "homepage": "https://github.com/noamokman/eslint-config-noamokman#readme",
   "devDependencies": {
     "jsonlint": "^1.6.2"
+  },
+  "peerDependencies": {
+    "eslint": "^3.3.1",
+    "babel-eslint": "^6.1.2"
   }
 }
