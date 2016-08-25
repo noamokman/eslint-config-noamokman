@@ -36,13 +36,18 @@
     "react/jsx-no-duplicate-props": 2,
     "react/jsx-no-target-blank": 2,
     "react/jsx-no-undef": 2,
+    "react/jsx-no-literals": 2,
+    "react/jsx-no-comment-textnodes": 2,
     "react/jsx-pascal-case": 2,
     "react/jsx-space-before-closing": 2,
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
-    "react/no-comment-textnodes": 2,
+    "react/jsx-wrap-multilines": 2,
+    "react/forbid-component-props": 2,
+    "react/no-danger-with-children": 2,
+    "react/no-find-dom-node": 2,
     "react/no-deprecated": 2,
-    "react/no-did-mount-set-state": [2, "allow-in-func"],
+    "react/no-did-mount-set-state": 2,
     "react/no-did-update-set-state": 2,
     "react/no-direct-mutation-state": 2,
     "react/no-is-mounted": 2,
@@ -54,7 +59,6 @@
     "react/prefer-stateless-function": 2,
     "react/react-in-jsx-scope": 2,
     "react/require-render-return": 2,
-    "react/self-closing-comp": 2,
-    "react/wrap-multilines": 2
+    "react/self-closing-comp": 2
   }
 }
