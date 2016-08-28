@@ -43,7 +43,6 @@
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
     "react/jsx-wrap-multilines": 2,
-    "react/forbid-component-props": 2,
     "react/no-danger-with-children": 2,
     "react/no-find-dom-node": 2,
     "react/no-deprecated": 2,
