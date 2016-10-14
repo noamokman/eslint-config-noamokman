@@ -9,15 +9,17 @@
 $ npm install --save-dev eslint-config-noamokman
 ```
 
-You'll also need Babel's ESLint [parser](https://github.com/babel/babel-eslint)
-
-```
-$ npm install --save-dev babel-eslint
-```
-
 ## Usage
 
-Add some ESLint config to your `package.json`:
+Create an `.eslintrc` file:
+
+```json
+{
+	"extends": "noamokman"
+}
+```
+
+Or add the ESLint config to your `package.json`:
 
 ```json
 {
@@ -27,15 +29,6 @@ Add some ESLint config to your `package.json`:
 	}
 }
 ```
-
-Or to `.eslintrc`:
-
-```json
-{
-	"extends": "noamokman"
-}
-```
-
 
 ### Additional Configs
 
