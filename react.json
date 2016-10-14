@@ -4,7 +4,6 @@
     "browser": true
   },
   "parserOptions": {
-    "ecmaVersion": 6,
     "ecmaFeatures": {
       "jsx": true
     }
@@ -14,50 +13,50 @@
   ],
   "rules": {
     "react/jsx-boolean-value": [
-      2,
+      "error",
       "never"
     ],
-    "react/jsx-closing-bracket-location": 2,
-    "react/jsx-curly-spacing": 2,
-    "react/jsx-equals-spacing": 2,
+    "react/jsx-closing-bracket-location": "error",
+    "react/jsx-curly-spacing": "error",
+    "react/jsx-equals-spacing": "error",
     "react/jsx-first-prop-new-line": [
-      2,
+      "error",
       "multiline"
     ],
     "react/jsx-indent-props": [
-      2,
+      "error",
       2
     ],
     "react/jsx-indent": [
-      2,
+      "error",
       2
     ],
-    "react/jsx-key": 2,
-    "react/jsx-no-duplicate-props": 2,
-    "react/jsx-no-target-blank": 2,
-    "react/jsx-no-undef": 2,
-    "react/jsx-no-literals": 2,
-    "react/jsx-no-comment-textnodes": 2,
-    "react/jsx-pascal-case": 2,
-    "react/jsx-space-before-closing": 2,
-    "react/jsx-uses-react": 2,
-    "react/jsx-uses-vars": 2,
-    "react/jsx-wrap-multilines": 2,
-    "react/no-danger-with-children": 2,
-    "react/no-find-dom-node": 2,
-    "react/no-deprecated": 2,
-    "react/no-did-mount-set-state": 2,
-    "react/no-did-update-set-state": 2,
-    "react/no-direct-mutation-state": 2,
-    "react/no-is-mounted": 2,
-    "react/no-multi-comp": 2,
-    "react/no-render-return-value": 2,
-    "react/no-string-refs": 2,
-    "react/no-unknown-property": 2,
-    "react/prefer-es6-class": [2, "always"],
-    "react/prefer-stateless-function": 2,
-    "react/react-in-jsx-scope": 2,
-    "react/require-render-return": 2,
-    "react/self-closing-comp": 2
+    "react/jsx-key": "error",
+    "react/jsx-no-duplicate-props": "error",
+    "react/jsx-no-target-blank": "error",
+    "react/jsx-no-undef": "error",
+    "react/jsx-no-literals": "error",
+    "react/jsx-no-comment-textnodes": "error",
+    "react/jsx-pascal-case": "error",
+    "react/jsx-space-before-closing": "error",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/jsx-wrap-multilines": "error",
+    "react/no-danger-with-children": "error",
+    "react/no-find-dom-node": "error",
+    "react/no-deprecated": "error",
+    "react/no-did-mount-set-state": "error",
+    "react/no-did-update-set-state": "error",
+    "react/no-direct-mutation-state": "error",
+    "react/no-is-mounted": "error",
+    "react/no-multi-comp": "error",
+    "react/no-render-return-value": "error",
+    "react/no-string-refs": "error",
+    "react/no-unknown-property": "error",
+    "react/prefer-es6-class": ["error", "always"],
+    "react/prefer-stateless-function": "error",
+    "react/react-in-jsx-scope": "error",
+    "react/require-render-return": "error",
+    "react/self-closing-comp": "error"
   }
 }
