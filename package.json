@@ -4,9 +4,11 @@
   "description": "The eslint config used by noamokman",
   "main": "eslint.json",
   "scripts": {
-    "test": "npm run lint-configs && npm run lint-fixtures",
+    "test": "npm run lint && npm run find-new-rules",
+    "lint": "run-p lint-*",
     "lint-configs": "jsonlint -q eslint.json && jsonlint -q test.json && jsonlint -q react.json",
-    "lint-fixtures": "eslint ./fixtures/es6.js -c ./eslint.json && eslint ./fixtures/test.js -c ./test.json && eslint ./fixtures/react.js -c ./react.json"
+    "lint-fixtures": "eslint ./fixtures/es6.js -c ./eslint.json && eslint ./fixtures/test.js -c ./test.json && eslint ./fixtures/react.js -c ./react.json",
+    "find-new-rules": "eslint-find-rules --unused ./eslint.json && eslint-find-rules --unused ./react.json"
   },
   "repository": {
     "type": "git",
@@ -31,11 +33,13 @@
   },
   "homepage": "https://github.com/noamokman/eslint-config-noamokman#readme",
   "devDependencies": {
-    "eslint": "^3.7.1",
+    "eslint": "^3.8.1",
+    "eslint-find-rules": "^1.14.0",
     "eslint-plugin-react": "^6.4.1",
-    "jsonlint": "^1.6.2"
+    "jsonlint": "^1.6.2",
+    "npm-run-all": "^3.1.1"
   },
   "peerDependencies": {
-    "eslint": "^3.3.1"
+    "eslint": "^3.8.1"
   }
 }
