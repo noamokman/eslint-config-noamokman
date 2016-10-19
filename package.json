@@ -8,7 +8,9 @@
     "lint": "run-p lint-*",
     "lint-configs": "jsonlint -q eslint.json && jsonlint -q test.json && jsonlint -q react.json",
     "lint-fixtures": "eslint ./fixtures/es6.js -c ./eslint.json && eslint ./fixtures/test.js -c ./test.json && eslint ./fixtures/react.js -c ./react.json",
-    "find-new-rules": "eslint-find-rules --unused ./eslint.json && eslint-find-rules --unused ./react.json"
+    "find-new-rules": "eslint-find-rules --unused ./eslint.json && eslint-find-rules --unused ./react.json",
+    "precommit": "npm test",
+    "commitmsg": "validate-commit-msg"
   },
   "repository": {
     "type": "git",
@@ -36,8 +38,10 @@
     "eslint": "^3.8.1",
     "eslint-find-rules": "^1.14.0",
     "eslint-plugin-react": "^6.4.1",
+    "husky": "^0.11.9",
     "jsonlint": "^1.6.2",
-    "npm-run-all": "^3.1.1"
+    "npm-run-all": "^3.1.1",
+    "validate-commit-msg": "^2.8.2"
   },
   "peerDependencies": {
     "eslint": "^3.8.1"
