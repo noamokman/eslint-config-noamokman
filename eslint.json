@@ -358,6 +358,7 @@
     "unicode-bom": "error",
     "vars-on-top": "off",
     "wrap-regex": "off",
-    "yield-star-spacing": "off"
+    "yield-star-spacing": "off",
+    "func-name-matching": "off"
   }
 }
