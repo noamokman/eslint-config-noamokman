@@ -359,6 +359,12 @@
     "vars-on-top": "off",
     "wrap-regex": "off",
     "yield-star-spacing": "off",
-    "func-name-matching": "off"
+    "func-name-matching": "off",
+    "capitalized-comments": "off",
+    "no-await-in-loop": "error",
+    "no-return-await": "off",
+    "no-useless-return": "off",
+    "prefer-destructuring": "error",
+    "require-await": "error"
   }
 }
