@@ -82,6 +82,16 @@ To use the react-native config you will need to install [eslint-plugin-react-nat
 $ npm install --save-dev eslint-plugin-react-native
 ```
 
+#### React Native Test [`noamokman/react-native-test`](react-native-test.json)
+
+Use this for your react native mocha tests
+
+```json
+{
+	"extends": "noamokman/react-native-test"
+}
+```
+
 ## License
 
 [MIT](LICENSE) © [Noam Okman](https://github.com/noamokman)
