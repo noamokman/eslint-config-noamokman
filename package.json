@@ -9,6 +9,7 @@
     "lint-eslint": "eslint ./fixtures/es6.js -c ./eslint.json",
     "lint-test": "eslint ./fixtures/test.js -c ./test.json",
     "lint-react": "eslint ./fixtures/react.js -c ./react.json",
+    "lint-react-test": "eslint ./fixtures/react-test.js -c ./react-test.json",
     "find-new-rules": "eslint-find-rules --unused ./eslint.json && eslint-find-rules --unused ./react.json",
     "precommit": "npm test",
     "commitmsg": "validate-commit-msg"

@@ -52,9 +52,20 @@ Use this for your mocha tests
 }
 ```
 
-To use the react config you will need to install a [plugin](https://github.com/yannickcr/eslint-plugin-react)
+To use the react config you will need to install [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
+
 ```
 $ npm install --save-dev eslint-plugin-react
+```
+
+#### React Test [`noamokman/react-test`](react-test.json)
+
+Use this for your react mocha tests
+
+```json
+{
+	"extends": "noamokman/react-test"
+}
 ```
 
 ## License
