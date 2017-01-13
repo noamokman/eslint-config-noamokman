@@ -68,6 +68,20 @@ Use this for your react mocha tests
 }
 ```
 
+#### React Native [`noamokman/react-native`](react-native.json)
+
+```json
+{
+	"extends": "noamokman/react-native"
+}
+```
+
+To use the react-native config you will need to install [eslint-plugin-react-native](https://github.com/Intellicode/eslint-plugin-react-native)
+
+```
+$ npm install --save-dev eslint-plugin-react-native
+```
+
 ## License
 
 [MIT](LICENSE) © [Noam Okman](https://github.com/noamokman)

@@ -10,7 +10,8 @@
     "lint-test": "eslint ./fixtures/test.js -c ./test.json",
     "lint-react": "eslint ./fixtures/react.js -c ./react.json",
     "lint-react-test": "eslint ./fixtures/react-test.js -c ./react-test.json",
-    "find-new-rules": "eslint-find-rules --unused ./eslint.json && eslint-find-rules --unused ./react.json",
+    "lint-react-native": "eslint ./fixtures/react-native.js -c ./react-native.json",
+    "find-new-rules": "eslint-find-rules --unused ./eslint.json && eslint-find-rules --unused ./react.json && eslint-find-rules --unused ./react-native.json",
     "precommit": "npm test",
     "commitmsg": "validate-commit-msg"
   },
@@ -41,6 +42,7 @@
     "eslint": "^3.13.0",
     "eslint-find-rules": "^1.14.3",
     "eslint-plugin-react": "^6.8.0",
+    "eslint-plugin-react-native": "^2.2.1",
     "husky": "^0.12.0",
     "npm-run-all": "^4.0.0",
     "validate-commit-msg": "^2.8.2"
