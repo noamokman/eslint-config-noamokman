@@ -369,6 +369,8 @@
     "no-return-await": "off",
     "no-useless-return": "off",
     "prefer-destructuring": "error",
-    "require-await": "error"
+    "require-await": "error",
+    "no-multi-assign": "off",
+    "prefer-promise-reject-errors": "error"
   }
 }
