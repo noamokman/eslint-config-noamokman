@@ -64,7 +64,7 @@
     "react/jsx-filename-extension": "off",
     "react/jsx-handler-names": "off",
     "react/jsx-max-props-per-line": "off",
-    "react/jsx-no-bind": "off",
+    "react/jsx-no-bind": "error",
     "react/jsx-sort-props": "off",
     "react/no-children-prop": "error",
     "react/no-comment-textnodes": "off",
@@ -81,6 +81,9 @@
     "react/wrap-multilines": "off",
     "react/jsx-tag-spacing": "error",
     "react/no-array-index-key": "error",
-    "react/require-default-props": "off"
+    "react/require-default-props": "off",
+    "react/forbid-elements": "off",
+    "react/forbid-foreign-prop-types": "off",
+    "react/void-dom-elements-no-children": "error"
   }
 }

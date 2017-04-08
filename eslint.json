@@ -371,6 +371,9 @@
     "prefer-destructuring": "error",
     "require-await": "error",
     "no-multi-assign": "off",
-    "prefer-promise-reject-errors": "error"
+    "prefer-promise-reject-errors": "error",
+    "no-compare-neg-zero": "error",
+    "nonblock-statement-body-position": "off",
+    "template-tag-spacing": "error"
   }
 }

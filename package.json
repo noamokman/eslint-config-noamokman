@@ -40,15 +40,15 @@
   },
   "homepage": "https://github.com/noamokman/eslint-config-noamokman#readme",
   "devDependencies": {
-    "eslint": "^3.14.1",
+    "eslint": "^3.19.0",
     "eslint-find-rules": "^1.14.3",
-    "eslint-plugin-react": "^6.9.0",
-    "eslint-plugin-react-native": "^2.2.1",
-    "husky": "^0.13.1",
-    "npm-run-all": "^4.0.1",
-    "validate-commit-msg": "^2.11.1"
+    "eslint-plugin-react": "^6.10.3",
+    "eslint-plugin-react-native": "^2.3.1",
+    "husky": "^0.13.3",
+    "npm-run-all": "^4.0.2",
+    "validate-commit-msg": "^2.12.1"
   },
   "peerDependencies": {
-    "eslint": "^3.14.1"
+    "eslint": "^3.19.0"
   }
 }
