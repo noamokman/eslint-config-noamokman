@@ -36,7 +36,7 @@ This package exposes addtional configs.
 
 #### Test [`noamokman/test`](test.json)
 
-Use this for your mocha tests
+Use this for your jest tests
 
 ```json
 {
@@ -60,7 +60,7 @@ $ npm install --save-dev eslint-plugin-react
 
 #### React Test [`noamokman/react-test`](react-test.json)
 
-Use this for your react mocha tests
+Use this for your react jest tests
 
 ```json
 {
@@ -84,7 +84,7 @@ $ npm install --save-dev eslint-plugin-react-native
 
 #### React Native Test [`noamokman/react-native-test`](react-native-test.json)
 
-Use this for your react native mocha tests
+Use this for your react native jest tests
 
 ```json
 {
