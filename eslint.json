@@ -374,6 +374,13 @@
     "prefer-promise-reject-errors": "error",
     "no-compare-neg-zero": "error",
     "nonblock-statement-body-position": "off",
-    "template-tag-spacing": "error"
+    "template-tag-spacing": "error",
+    "array-bracket-newline": ["error", { "multiline": true }],
+    "array-element-newline": ["error", { "multiline": true }],
+    "for-direction": "error",
+    "no-buffer-constructor": "error",
+    "padding-line-between-statements": "off",
+    "semi-style": ["error", "last"],
+    "switch-colon-spacing": "error"
   }
 }
