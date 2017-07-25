@@ -381,6 +381,7 @@
     "no-buffer-constructor": "error",
     "padding-line-between-statements": "off",
     "semi-style": ["error", "last"],
-    "switch-colon-spacing": "error"
+    "switch-colon-spacing": "error",
+    "getter-return": "error"
   }
 }
