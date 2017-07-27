@@ -376,7 +376,7 @@
     "nonblock-statement-body-position": "off",
     "template-tag-spacing": "error",
     "array-bracket-newline": ["error", { "multiline": true }],
-    "array-element-newline": ["error", { "multiline": true }],
+    "array-element-newline": ["error"],
     "for-direction": "error",
     "no-buffer-constructor": "error",
     "padding-line-between-statements": "off",
