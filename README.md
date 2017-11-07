@@ -52,12 +52,6 @@ Use this for your jest tests
 }
 ```
 
-To use the react config you will need to install [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
-
-```
-$ npm install --save-dev eslint-plugin-react
-```
-
 #### React Test [`noamokman/react-test`](react-test.json)
 
 Use this for your react jest tests
@@ -74,12 +68,6 @@ Use this for your react jest tests
 {
 	"extends": "noamokman/react-native"
 }
-```
-
-To use the react-native config you will need to install [eslint-plugin-react-native](https://github.com/Intellicode/eslint-plugin-react-native)
-
-```
-$ npm install --save-dev eslint-plugin-react-native
 ```
 
 #### React Native Test [`noamokman/react-native-test`](react-native-test.json)
