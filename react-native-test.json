@@ -1,6 +1,6 @@
 {
-  "extends": "./react-native.json",
-  "env": {
-    "jest": true
-  }
+  "extends": [
+    "./test.json",
+    "./react-native.json"
+  ]
 }
