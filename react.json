@@ -87,6 +87,10 @@
     "react/default-props-match-prop-types": "error",
     "react/jsx-closing-tag-location": "error",
     "react/no-redundant-should-component-update": "error",
-    "react/no-will-update-set-state": "error"
+    "react/no-will-update-set-state": "error",
+    "react/boolean-prop-naming": "off",
+    "react/jsx-curly-brace-presence": ["error", { "props": "ignore", "children": "always" }],
+    "react/no-typos": "error",
+    "react/no-unused-state": "error"
   }
 }

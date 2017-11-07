@@ -375,13 +375,16 @@
     "no-compare-neg-zero": "error",
     "nonblock-statement-body-position": "off",
     "template-tag-spacing": "error",
-    "array-bracket-newline": ["error", { "multiline": true }],
-    "array-element-newline": ["error"],
+    "array-bracket-newline": ["error", "consistent"],
+    "array-element-newline": "off",
     "for-direction": "error",
     "no-buffer-constructor": "error",
     "padding-line-between-statements": "off",
     "semi-style": ["error", "last"],
     "switch-colon-spacing": "error",
-    "getter-return": "error"
+    "getter-return": "error",
+    "function-paren-newline": "off",
+    "lines-between-class-members": "error",
+    "multiline-comment-style": "off"
   }
 }

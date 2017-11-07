@@ -1,3 +1,3 @@
 import React from 'react';
 
-export default () => <span>{'lol'}</span>;
+export default () => <span aria-label='lol'>{'lol'}</span>;
