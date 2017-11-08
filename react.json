@@ -89,7 +89,7 @@
     "react/no-redundant-should-component-update": "error",
     "react/no-will-update-set-state": "error",
     "react/boolean-prop-naming": "off",
-    "react/jsx-curly-brace-presence": ["error", { "props": "ignore", "children": "always" }],
+    "react/jsx-curly-brace-presence": "off",
     "react/no-typos": "error",
     "react/no-unused-state": "error"
   }
