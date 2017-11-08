@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
 import Lol from './react';
 
 describe('test', function () {

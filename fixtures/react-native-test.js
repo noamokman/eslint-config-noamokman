@@ -1,5 +1,5 @@
-import React from 'react';
-import {Text} from 'react-native';
+import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
+import {Text} from 'react-native'; // eslint-disable-line import/no-extraneous-dependencies
 
 describe('test', function () {
   this.timeout(5000);
