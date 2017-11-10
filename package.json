@@ -40,8 +40,8 @@
   },
   "homepage": "https://github.com/noamokman/eslint-config-noamokman#readme",
   "devDependencies": {
-    "@commitlint/cli": "^4.2.2",
-    "@commitlint/config-angular": "^4.2.1",
+    "@commitlint/cli": "^4.3.0",
+    "@commitlint/config-angular": "^4.3.0",
     "eslint": "^4.10.0",
     "eslint-find-rules": "^3.1.1",
     "husky": "^0.14.3",
@@ -49,11 +49,11 @@
   },
   "dependencies": {
     "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jest": "^21.2.0",
+    "eslint-plugin-jest": "^21.3.2",
     "eslint-plugin-lodash": "^2.5.0",
     "eslint-plugin-react": "^7.4.0",
     "eslint-plugin-react-native": "^3.1.0",
-    "eslint-plugin-unicorn": "^2.1.2"
+    "eslint-plugin-unicorn": "^3.0.0"
   },
   "peerDependencies": {
     "eslint": "^4.10.0"

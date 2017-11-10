@@ -475,6 +475,9 @@
     "import/no-webpack-loader-syntax": "off",
     "import/order": "error",
     "import/prefer-default-export": "off",
-    "import/unambiguous": "off"
+    "import/unambiguous": "off",
+    "unicorn/import-index": "error",
+    "unicorn/new-for-builtins": "error",
+    "unicorn/regex-shorthand": "error"
   }
 }
