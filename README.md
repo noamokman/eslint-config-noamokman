@@ -9,6 +9,14 @@
 $ npm install --save-dev eslint-config-noamokman
 ```
 
+## Plugins
+
+This config uses several plugins:
+
+```
+$ npm install --save-dev eslint-plugin-import eslint-plugin-lodash eslint-plugin-unicorn
+```
+
 ## Usage
 
 Create an `.eslintrc` file:
@@ -44,12 +52,23 @@ Use this for your jest tests
 }
 ```
 
+Install the plugin:
+```
+$ npm install --save-dev eslint-plugin-jest
+```
+
+
 #### React [`noamokman/react`](react.json)
 
 ```json
 {
 	"extends": "noamokman/react"
 }
+```
+
+Install the plugin:
+```
+$ npm install --save-dev eslint-plugin-react
 ```
 
 #### React Test [`noamokman/react-test`](react-test.json)
@@ -62,12 +81,22 @@ Use this for your react jest tests
 }
 ```
 
+Install the plugins:
+```
+$ npm install --save-dev eslint-plugin-jest eslint-plugin-react
+```
+
 #### React Native [`noamokman/react-native`](react-native.json)
 
 ```json
 {
 	"extends": "noamokman/react-native"
 }
+```
+
+Install the plugins:
+```
+$ npm install --save-dev eslint-plugin-react eslint-plugin-react-native
 ```
 
 #### React Native Test [`noamokman/react-native-test`](react-native-test.json)
@@ -78,6 +107,11 @@ Use this for your react native jest tests
 {
 	"extends": "noamokman/react-native-test"
 }
+```
+
+Install the plugins:
+```
+$ npm install --save-dev eslint-plugin-jest eslint-plugin-react eslint-plugin-react-native
 ```
 
 ## License
