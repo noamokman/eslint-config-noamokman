@@ -91,6 +91,10 @@
     "react/boolean-prop-naming": "off",
     "react/jsx-curly-brace-presence": "off",
     "react/no-typos": "error",
-    "react/no-unused-state": "error"
+    "react/no-unused-state": "error",
+    "react/button-has-type": "error",
+    "react/destructuring-assignment": "error",
+    "react/jsx-one-expression-per-line": "off",
+    "react/no-access-state-in-setstate": "error"
   }
 }
