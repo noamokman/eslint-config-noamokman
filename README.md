@@ -1,4 +1,4 @@
-# eslint-config-noamokman [![Build Status](https://travis-ci.org/noamokman/eslint-config-noamokman.svg)](https://travis-ci.org/noamokman/eslint-config-noamokman)
+# eslint-config-noamokman [![Build Status](https://travis-ci.org/noamokman/eslint-config-noamokman.svg)](https://travis-ci.org/noamokman/eslint-config-noamokman) [![Greenkeeper badge](https://badges.greenkeeper.io/noamokman/eslint-config-noamokman.svg)](https://greenkeeper.io/)
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) used by noamokman.
 
