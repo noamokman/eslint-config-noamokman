@@ -9,3 +9,7 @@ export const array2 = [
   2,
   3
 ];
+
+const x = {};
+
+export const b = {...x};
