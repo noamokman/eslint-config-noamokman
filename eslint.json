@@ -5,10 +5,7 @@
   },
   "parserOptions": {
     "ecmaVersion": 2017,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "experimentalObjectRestSpread": true
-    }
+    "sourceType": "module"
   },
   "plugins": [
     "unicorn",
@@ -490,6 +487,11 @@
     "unicorn/no-unsafe-regex": "error",
     "unicorn/prefer-add-event-listener": "error",
     "unicorn/prefer-spread": "error",
-    "implicit-arrow-linebreak": "error"
+    "implicit-arrow-linebreak": "error",
+    "import/dynamic-import-chunkname": "error",
+    "import/no-relative-parent-imports": "off",
+    "max-classes-per-file": "off",
+    "max-lines-per-function": "off",
+    "prefer-object-spread": "error"
   }
 }

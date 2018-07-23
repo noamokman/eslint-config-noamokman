@@ -100,6 +100,8 @@
     "react/jsx-child-element-spacing": "off",
     "react/jsx-max-depth": "off",
     "react/jsx-sort-default-props": "off",
-    "react/no-this-in-sfc": "error"
+    "react/no-this-in-sfc": "error",
+    "react/no-unsafe": "error",
+    "react/jsx-props-no-multi-spaces": "error"
   }
 }
