@@ -492,6 +492,11 @@
     "import/no-relative-parent-imports": "off",
     "max-classes-per-file": "off",
     "max-lines-per-function": "off",
-    "prefer-object-spread": "error"
+    "prefer-object-spread": "error",
+    "no-async-promise-executor": "error",
+    "no-misleading-character-class": "error",
+    "require-atomic-updates": "error",
+    "require-unicode-regexp": "off",
+    "unicorn/prefer-exponentiation-operator": "error"
   }
 }
