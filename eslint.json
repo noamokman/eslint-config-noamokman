@@ -282,7 +282,10 @@
     "default-case": "off",
     "eol-last": "off",
     "func-call-spacing": "error",
-    "func-names": ["error", "never"],
+    "func-names": [
+      "error",
+      "never"
+    ],
     "func-style": "off",
     "global-require": "off",
     "id-blacklist": "off",
@@ -291,7 +294,13 @@
     "init-declarations": "off",
     "line-comment-position": "off",
     "linebreak-style": "off",
-    "lines-around-directive": ["error", { "before": "never", "after": "always" }],
+    "lines-around-directive": [
+      "error",
+      {
+        "before": "never",
+        "after": "always"
+      }
+    ],
     "max-depth": "off",
     "max-len": "off",
     "max-lines": "off",
@@ -377,12 +386,18 @@
     "no-compare-neg-zero": "error",
     "nonblock-statement-body-position": "off",
     "template-tag-spacing": "error",
-    "array-bracket-newline": ["error", "consistent"],
+    "array-bracket-newline": [
+      "error",
+      "consistent"
+    ],
     "array-element-newline": "off",
     "for-direction": "error",
     "no-buffer-constructor": "error",
     "padding-line-between-statements": "off",
-    "semi-style": ["error", "last"],
+    "semi-style": [
+      "error",
+      "last"
+    ],
     "switch-colon-spacing": "error",
     "getter-return": "error",
     "function-paren-newline": "off",
@@ -497,6 +512,15 @@
     "no-misleading-character-class": "error",
     "require-atomic-updates": "error",
     "require-unicode-regexp": "off",
-    "unicorn/prefer-exponentiation-operator": "error"
+    "unicorn/prefer-exponentiation-operator": "error",
+    "import/no-named-export": "off",
+    "lodash/collection-ordering": "off",
+    "no-useless-catch": "off",
+    "prefer-named-capture-group": "off",
+    "unicorn/no-console-spaces": "error",
+    "unicorn/no-unreadable-array-destructuring": "error",
+    "unicorn/no-unused-properties": "off",
+    "unicorn/prefer-node-append": "error",
+    "unicorn/prefer-query-selector": "error"
   }
 }
