@@ -14,7 +14,7 @@ $ npm install --save-dev eslint-config-noamokman
 This config uses several plugins:
 
 ```
-$ npm install --save-dev eslint-plugin-import eslint-plugin-lodash eslint-plugin-unicorn
+$ npm install --save-dev eslint-plugin-import eslint-plugin-lodash eslint-plugin-unicorn @typescript-eslint/eslint-plugin
 ```
 
 ## Usage
@@ -40,7 +40,7 @@ Or add the ESLint config to your `package.json`:
 
 ### Additional Configs
 
-This package exposes addtional configs.
+This package exposes additional configs.
 
 #### Test [`noamokman/test`](test.json)
 
