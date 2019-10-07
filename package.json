@@ -4,7 +4,7 @@
   "description": "The eslint config used by noamokman",
   "main": "eslint.json",
   "scripts": {
-    "test": "npm run lint",
+    "test": "run-s lint find-new-rules",
     "lint": "run-p lint-*",
     "lint-eslint": "eslint ./fixtures/es6.js -c ./eslint.json",
     "lint-typescript": "eslint ./fixtures/ts.ts -c ./eslint.json",
@@ -39,26 +39,26 @@
   },
   "homepage": "https://github.com/noamokman/eslint-config-noamokman#readme",
   "devDependencies": {
-    "@commitlint/cli": "^8.1.0",
-    "@commitlint/config-angular": "^8.1.0",
-    "eslint": "^6.1.0",
-    "eslint-find-rules": "^3.3.1",
-    "husky": "^3.0.1",
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-angular": "^8.2.0",
+    "eslint": "^6.5.1",
+    "eslint-find-rules": "^3.4.0",
+    "husky": "^3.0.8",
     "npm-run-all": "^4.1.5",
-    "typescript": "^3.5.3"
+    "typescript": "^3.6.3"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.13.0",
-    "@typescript-eslint/parser": "^1.13.0",
+    "@typescript-eslint/eslint-plugin": "^2.3.2",
+    "@typescript-eslint/parser": "^2.3.2",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^22.13.7",
-    "eslint-plugin-lodash": "^5.1.0",
-    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-lodash": "^6.0.0",
+    "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-native": "^3.7.0",
-    "eslint-plugin-unicorn": "^10.0.0"
+    "eslint-plugin-unicorn": "^12.0.2"
   },
   "peerDependencies": {
-    "eslint": "^6.1.0"
+    "eslint": "^6.5.1"
   },
   "husky": {
     "hooks": {

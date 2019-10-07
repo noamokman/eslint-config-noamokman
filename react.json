@@ -108,6 +108,12 @@
     "react/no-this-in-sfc": "error",
     "react/no-unsafe": "error",
     "react/jsx-props-no-multi-spaces": "error",
-    "react/jsx-fragments": ["error", "syntax"]
+    "react/jsx-fragments": ["error", "syntax"],
+    "react/jsx-curly-newline": "error",
+    "react/jsx-no-useless-fragment": "error",
+    "react/jsx-props-no-spreading": "off",
+    "react/prefer-read-only-props": "off",
+    "react/state-in-constructor": "off",
+    "react/static-property-placement": "error"
   }
 }
