@@ -1,5 +1,8 @@
 {
   "extends": "./eslint.json",
+  "parserOptions": {
+    "createDefaultProgram": true
+  },
   "env": {
     "jest": true
   },
