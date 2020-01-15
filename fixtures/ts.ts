@@ -13,11 +13,16 @@ export const array2 = [
   3
 ];
 
-const x = {};
-
-export const b = {...x};
 
 interface Foo {
   foo(s: string): void;
   bar(): void;
 }
+
+let foo: Foo | undefined;
+
+const x = {};
+
+export const b = {...x};
+
+console.log(foo);

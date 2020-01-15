@@ -34,7 +34,7 @@
     "no-empty": "error",
     "no-ex-assign": "error",
     "no-extra-boolean-cast": "error",
-    "no-extra-semi": "error",
+    "no-extra-semi": "off",
     "no-func-assign": "error",
     "no-inner-declarations": "error",
     "no-invalid-regexp": "error",
@@ -98,7 +98,7 @@
     "no-return-assign": "error",
     "no-self-compare": "error",
     "no-sequences": "error",
-    "no-unused-expressions": "error",
+    "no-unused-expressions": "off",
     "no-useless-call": "error",
     "no-useless-concat": "error",
     "no-void": "error",
@@ -222,7 +222,7 @@
     "semi": "off",
     "keyword-spacing": "error",
     "space-before-blocks": "error",
-    "space-before-function-paren": "error",
+    "space-before-function-paren": "off",
     "space-in-parens": [
       "error",
       "never"
@@ -620,6 +620,57 @@
     "unicorn/prefer-reflect-apply": "error",
     "unicorn/prefer-string-slice": "error",
     "unicorn/prefer-text-content": "error",
-    "unicorn/prevent-abbreviations": "off"
+    "unicorn/prevent-abbreviations": "off",
+    "@typescript-eslint/default-param-last": "error",
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "default",
+        "format": [
+          "camelCase"
+        ],
+        "leadingUnderscore": "allow",
+        "trailingUnderscore": "allow"
+      },
+      {
+        "selector": "variable",
+        "format": [
+          "camelCase",
+          "UPPER_CASE"
+        ],
+        "leadingUnderscore": "allow",
+        "trailingUnderscore": "allow"
+      },
+      {
+        "selector": "typeLike",
+        "format": [
+          "PascalCase"
+        ]
+      }
+    ],
+    "@typescript-eslint/no-dynamic-delete": "off",
+    "@typescript-eslint/no-extra-non-null-assertion": "error",
+    "@typescript-eslint/no-extra-semi": "error",
+    "@typescript-eslint/no-implied-eval": "error",
+    "@typescript-eslint/no-throw-literal": "error",
+    "@typescript-eslint/no-untyped-public-signature": "off",
+    "@typescript-eslint/no-unused-expressions": "error",
+    "@typescript-eslint/no-unused-vars-experimental": "error",
+    "@typescript-eslint/prefer-nullish-coalescing": "error",
+    "@typescript-eslint/prefer-optional-chain": "error",
+    "@typescript-eslint/restrict-template-expressions": "off",
+    "@typescript-eslint/return-await": "error",
+    "@typescript-eslint/space-before-function-paren": "error",
+    "grouped-accessor-pairs": [
+      "error",
+      "getBeforeSet"
+    ],
+    "no-constructor-return": "error",
+    "no-dupe-else-if": "error",
+    "no-setter-return": "error",
+    "prefer-exponentiation-operator": "error",
+    "unicorn/prefer-modern-dom-apis": "error",
+    "unicorn/prefer-negative-index": "error",
+    "unicorn/prefer-trim-start-end": "error"
   }
 }
