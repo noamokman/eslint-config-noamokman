@@ -177,7 +177,12 @@
         "allowArrayStart": true
       }
     ],
-    "new-cap": ["error", { "capIsNew": false }],
+    "new-cap": [
+      "error",
+      {
+        "capIsNew": false
+      }
+    ],
     "new-parens": "error",
     "newline-after-var": [
       "error",
@@ -548,7 +553,12 @@
     "@typescript-eslint/no-type-alias": "error",
     "@typescript-eslint/no-unnecessary-qualifier": "error",
     "@typescript-eslint/no-unnecessary-type-assertion": "error",
-    "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
     "@typescript-eslint/no-use-before-define": "error",
     "@typescript-eslint/no-useless-constructor": "error",
     "@typescript-eslint/no-var-requires": "off",
@@ -646,6 +656,14 @@
       {
         "selector": "typeLike",
         "format": [
+          "PascalCase"
+        ]
+      },
+      {
+        "selector": "enumMember",
+        "format": [
+          "camelCase",
+          "UPPER_CASE",
           "PascalCase"
         ]
       }
