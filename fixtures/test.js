@@ -1,8 +1,6 @@
 import calc from './es6';
 
-describe('test', function () {
-  this.timeout(5000);
-
+describe('test', () => {
   it('case', () => {
     calc({a: 1, b: 2});
   });

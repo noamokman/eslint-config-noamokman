@@ -15,8 +15,8 @@ export const array2 = [
 
 
 interface Foo {
-  foo(s: string): void;
-  bar(): void;
+  foo: (s: string) => void;
+  bar: () => void;
 }
 
 let foo: Foo | undefined;
