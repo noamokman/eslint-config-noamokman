@@ -539,12 +539,7 @@
     "@typescript-eslint/no-require-imports": "off",
     "@typescript-eslint/no-this-alias": "off",
     "@typescript-eslint/triple-slash-reference": "error",
-    "@typescript-eslint/no-type-alias": [
-      "error",
-      {
-        "allowCallbacks": "always"
-      }
-    ],
+    "@typescript-eslint/no-type-alias": "off",
     "@typescript-eslint/no-unnecessary-qualifier": "error",
     "@typescript-eslint/no-unnecessary-type-assertion": "error",
     "@typescript-eslint/no-unused-vars": [
