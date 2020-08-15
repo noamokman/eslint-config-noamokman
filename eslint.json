@@ -513,9 +513,6 @@
     "@typescript-eslint/array-type": "error",
     "@typescript-eslint/ban-ts-ignore": "off",
     "@typescript-eslint/ban-types": "off",
-    "@typescript-eslint/naming-convention": [
-      "error"
-    ],
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-member-accessibility": "off",
     "@typescript-eslint/generic-type-naming": "off",
