@@ -95,7 +95,7 @@
     "no-unused-expressions": "off",
     "no-useless-call": "error",
     "no-useless-concat": "error",
-    "no-void": "error",
+    "no-void": ["error", { "allowAsStatement": true }],
     "no-with": "error",
     "radix": "error",
     "wrap-iife": [
