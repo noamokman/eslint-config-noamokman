@@ -183,10 +183,7 @@
     "no-spaced-func": "error",
     "no-trailing-spaces": "error",
     "no-unneeded-ternary": "error",
-    "object-curly-spacing": [
-      "error",
-      "never"
-    ],
+    "object-curly-spacing": "off",
     "one-var": [
       "error",
       "never"
@@ -745,6 +742,38 @@
     "unicorn/import-style": "off",
     "unicorn/numeric-separators-style": "error",
     "unicorn/prefer-math-trunc": "error",
-    "unicorn/prefer-ternary": "error"
+    "unicorn/prefer-ternary": "error",
+    "@typescript-eslint/no-unsafe-argument": "error",
+    "@typescript-eslint/non-nullable-type-assertion-style": "error",
+    "@typescript-eslint/object-curly-spacing": "error",
+    "@typescript-eslint/sort-type-union-intersection-members": "error",
+    "no-nonoctal-decimal-escape": "error",
+    "no-unsafe-optional-chaining": "error",
+    "unicorn/consistent-destructuring": "error",
+    "unicorn/empty-brace-spaces": "error",
+    "unicorn/no-array-callback-reference": "off",
+    "unicorn/no-array-for-each": "off",
+    "unicorn/no-array-push-push": "error",
+    "unicorn/no-array-reduce": "off",
+    "unicorn/no-instanceof-array": "error",
+    "unicorn/no-lonely-if": "error",
+    "unicorn/no-new-array": "error",
+    "unicorn/no-static-only-class": "error",
+    "unicorn/no-this-assignment": "error",
+    "unicorn/prefer-array-flat": "error",
+    "unicorn/prefer-array-flat-map": "error",
+    "unicorn/prefer-array-index-of": "error",
+    "unicorn/prefer-array-some": "error",
+    "unicorn/prefer-date-now": "error",
+    "unicorn/prefer-default-parameters": "error",
+    "unicorn/prefer-dom-node-append": "error",
+    "unicorn/prefer-dom-node-dataset": "error",
+    "unicorn/prefer-dom-node-remove": "error",
+    "unicorn/prefer-dom-node-text-content": "error",
+    "unicorn/prefer-keyboard-event-key": "error",
+    "unicorn/prefer-regexp-test": "error",
+    "unicorn/prefer-string-replace-all": "error",
+    "unicorn/prefer-string-starts-ends-with": "error",
+    "unicorn/prefer-string-trim-start-end": "error"
   }
 }

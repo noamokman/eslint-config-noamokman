@@ -117,6 +117,9 @@
     "react/static-property-placement": "error",
     "react/function-component-definition": "off",
     "react/jsx-no-script-url": "error",
-    "react/no-adjacent-inline-elements": "error"
+    "react/no-adjacent-inline-elements": "error",
+    "react/jsx-newline": ["error", { "prevent": true }],
+    "react/jsx-no-constructed-context-values": "error",
+    "react/no-unstable-nested-components": "error"
   }
 }

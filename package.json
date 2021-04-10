@@ -13,7 +13,8 @@
     "lint-react-test": "eslint ./fixtures/react-test.js -c ./react-test.json",
     "lint-react-native": "eslint ./fixtures/react-native.js -c ./react-native.json",
     "lint-react-native-test": "eslint ./fixtures/react-native-test.js -c ./react-native-test.json",
-    "find-new-rules": "eslint-find-rules --unused ./eslint.json && eslint-find-rules --unused ./react.json && eslint-find-rules --unused ./react-native.json"
+    "find-new-rules": "eslint-find-rules --unused ./eslint.json && eslint-find-rules --unused ./react.json && eslint-find-rules --unused ./react-native.json",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -39,31 +40,25 @@
   },
   "homepage": "https://github.com/noamokman/eslint-config-noamokman#readme",
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-angular": "^11.0.0",
-    "eslint": "^7.13.0",
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-angular": "^12.1.1",
+    "eslint": "^7.24.0",
     "eslint-find-rules": "^3.6.1",
-    "husky": "^4.3.0",
+    "husky": "^6.0.0",
     "npm-run-all": "^4.1.5",
-    "typescript": "^4.0.5"
+    "typescript": "^4.2.4"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.7.0",
-    "@typescript-eslint/parser": "^4.7.0",
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jest": "^24.1.3",
-    "eslint-plugin-lodash": "^7.1.0",
-    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-jest": "^24.3.4",
+    "eslint-plugin-lodash": "^7.2.0",
+    "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-native": "^3.10.0",
-    "eslint-plugin-unicorn": "^23.0.0"
+    "eslint-plugin-unicorn": "^29.0.0"
   },
   "peerDependencies": {
-    "eslint": "^7.13.0"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -e",
-      "pre-commit": "npm test"
-    }
+    "eslint": "^7.24.0"
   }
 }
