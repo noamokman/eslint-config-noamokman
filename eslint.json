@@ -471,7 +471,7 @@
     "import/no-default-export": "off",
     "import/no-self-import": "error",
     "import/no-useless-path-segments": "error",
-    "unicorn/import-index": "error",
+    "unicorn/import-index": ["error", {"ignoreImports": true} ],
     "unicorn/new-for-builtins": "error",
     "unicorn/regex-shorthand": "error",
     "unicorn/error-message": "error",
