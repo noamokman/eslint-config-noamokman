@@ -1,7 +1,6 @@
-# eslint-config-noamokman [![Build Status](https://travis-ci.org/noamokman/eslint-config-noamokman.svg)](https://travis-ci.org/noamokman/eslint-config-noamokman)
+# eslint-config-noamokman
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) used by noamokman.
-
 
 ## Install
 
@@ -23,7 +22,7 @@ Create an `.eslintrc` file:
 
 ```json
 {
-	"extends": "noamokman"
+  "extends": "noamokman"
 }
 ```
 
@@ -31,10 +30,10 @@ Or add the ESLint config to your `package.json`:
 
 ```json
 {
-	"name": "my-awesome-project",
-	"eslintConfig": {
-		"extends": "noamokman"
-	}
+  "name": "my-awesome-project",
+  "eslintConfig": {
+    "extends": "noamokman"
+  }
 }
 ```
 
@@ -48,25 +47,26 @@ Use this for your jest tests
 
 ```json
 {
-	"extends": "noamokman/test"
+  "extends": "noamokman/test"
 }
 ```
 
 Install the plugin:
+
 ```
 $ npm install --save-dev eslint-plugin-jest
 ```
-
 
 #### React [`noamokman/react`](react.json)
 
 ```json
 {
-	"extends": "noamokman/react"
+  "extends": "noamokman/react"
 }
 ```
 
 Install the plugin:
+
 ```
 $ npm install --save-dev eslint-plugin-react
 ```
@@ -77,11 +77,12 @@ Use this for your react jest tests
 
 ```json
 {
-	"extends": "noamokman/react-test"
+  "extends": "noamokman/react-test"
 }
 ```
 
 Install the plugins:
+
 ```
 $ npm install --save-dev eslint-plugin-jest eslint-plugin-react
 ```
@@ -90,11 +91,12 @@ $ npm install --save-dev eslint-plugin-jest eslint-plugin-react
 
 ```json
 {
-	"extends": "noamokman/react-native"
+  "extends": "noamokman/react-native"
 }
 ```
 
 Install the plugins:
+
 ```
 $ npm install --save-dev eslint-plugin-react eslint-plugin-react-native
 ```
@@ -105,11 +107,12 @@ Use this for your react native jest tests
 
 ```json
 {
-	"extends": "noamokman/react-native-test"
+  "extends": "noamokman/react-native-test"
 }
 ```
 
 Install the plugins:
+
 ```
 $ npm install --save-dev eslint-plugin-jest eslint-plugin-react eslint-plugin-react-native
 ```
