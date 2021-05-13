@@ -774,6 +774,10 @@
     "unicorn/prefer-regexp-test": "error",
     "unicorn/prefer-string-replace-all": "error",
     "unicorn/prefer-string-starts-ends-with": "error",
-    "unicorn/prefer-string-trim-start-end": "error"
+    "unicorn/prefer-string-trim-start-end": "error",
+    "unicorn/no-document-cookie": "error",
+    "unicorn/prefer-module": "error",
+    "unicorn/prefer-node-protocol": "error",
+    "unicorn/prefer-switch":  ["error", { "emptyDefaultCase": "no-default-case" }]
   }
 }
