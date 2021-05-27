@@ -53,7 +53,6 @@
     "@typescript-eslint/parser": "^4.25.0",
     "eslint-plugin-import": "^2.23.3",
     "eslint-plugin-jest": "^24.3.6",
-    "eslint-plugin-lodash": "^7.2.0",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-native": "^3.11.0",
     "eslint-plugin-unicorn": "^32.0.1"
