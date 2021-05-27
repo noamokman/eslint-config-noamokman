@@ -13,7 +13,7 @@ $ npm install --save-dev eslint-config-noamokman
 This config uses several plugins:
 
 ```
-$ npm install --save-dev eslint-plugin-import eslint-plugin-lodash eslint-plugin-unicorn @typescript-eslint/eslint-plugin
+$ npm install --save-dev eslint-plugin-import eslint-plugin-unicorn @typescript-eslint/eslint-plugin
 ```
 
 ## Usage

@@ -42,23 +42,23 @@
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
-    "eslint": "^7.26.0",
+    "eslint": "^7.27.0",
     "eslint-find-rules": "^3.6.1",
     "husky": "^6.0.0",
     "npm-run-all": "^4.1.5",
-    "typescript": "^4.2.4"
+    "typescript": "^4.3.2"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.23.0",
-    "@typescript-eslint/parser": "^4.23.0",
-    "eslint-plugin-import": "^2.22.1",
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "eslint-plugin-import": "^2.23.3",
     "eslint-plugin-jest": "^24.3.6",
     "eslint-plugin-lodash": "^7.2.0",
     "eslint-plugin-react": "^7.23.2",
-    "eslint-plugin-react-native": "^3.10.0",
+    "eslint-plugin-react-native": "^3.11.0",
     "eslint-plugin-unicorn": "^32.0.1"
   },
   "peerDependencies": {
-    "eslint": "^7.26.0"
+    "eslint": "^7.27.0"
   }
 }
