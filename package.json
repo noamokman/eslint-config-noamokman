@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-noamokman",
-  "version": "10.3.9",
+  "version": "10.3.10",
   "description": "The eslint config used by noamokman",
   "main": "eslint.json",
   "scripts": {
