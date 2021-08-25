@@ -1,3 +1,6 @@
+# Deprecation notice ⚠️
+This repo was renamed and moved to [osskit](https://github.com/osskit/eslint-config)
+
 # eslint-config-noamokman
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) used by noamokman.
